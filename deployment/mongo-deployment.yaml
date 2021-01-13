@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongo
-  namespace: [student-name]
+  namespace: angel
   labels:
     app: mongo
 spec:
@@ -25,4 +25,4 @@ spec:
       volumes:
         - name: storage
           persistentVolumeClaim:
-            claimName: mongo-pvc
+            claimName: mongo-pvc-angel

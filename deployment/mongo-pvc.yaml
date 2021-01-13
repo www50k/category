@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mongo-pvc
-  namespace: [student-name]
+  name: mongo-pvc-angel
+  namespace: angel
 spec:
   storageClassName: document
   accessModes:

@@ -5,7 +5,7 @@ metadata:
     app: category
     servicefor: category
   name: category
-  namespace: [student-name]
+  namespace: angel
 spec:
   ports:
   - port: 8080

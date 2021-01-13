@@ -5,7 +5,7 @@ metadata:
     app: category
     servicefor: category
   name: category
-  namespace: [student-name]
+  namespace: angel
 spec:
   replicas: 1
   selector:
@@ -20,7 +20,7 @@ spec:
         servicefor: category
     spec:
       containers:
-      - image: [docker-username]/category:[tag]
+      - image: cloops/category:distributed
         imagePullPolicy: Always
         name: category
         ports:
